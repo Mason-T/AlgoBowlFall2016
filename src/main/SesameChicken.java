@@ -14,10 +14,10 @@ public class SesameChicken {
 	private static float currentMin = Float.MAX_VALUE;
 
 	public static void main( String[] args ) throws Exception {
-		int group = 3;
+		int group = 16;
 		readFile( group );
 		readCurrentMax( group );
-		buckshot( 40, 10, group );
+		buckshot( 20, 10, group );
 	}
 	
 	// Finds the current maximum answer for this group's input, so we can overwrite it when we find something better 
